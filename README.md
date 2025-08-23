@@ -32,8 +32,8 @@ To explore the notebooks:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/username/your-repo-name.git
-   cd your-repo-name
+   git clone git@github.com:Mwangiboyle/Notebooks.git
+   cd Notebooks
    ```
 
 2. Install required packages:
