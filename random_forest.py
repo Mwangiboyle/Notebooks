@@ -132,18 +132,21 @@ class RandomForest:
 
 
 # --- Example Usage ---
-if __name__ == "__main__":
-    # Simple dataset
-    X = np.array([[1, 2],
-                  [2, 3],
-                  [3, 1],
-                  [6, 5],
-                  [7, 7],
-                  [8, 6]])
-    y = np.array([0, 0, 0, 1, 1, 1])
+# %%
+# Simple dataset
+X = np.array([[1, 2],
+              [2, 3],
+              [3, 1],
+              [6, 5],
+              [7, 7],
+              [8, 6]])
+y = np.array([0, 0, 0, 1, 1, 1])
 
-    model = RandomForest(n_estimators=5, max_depth=3, max_features=1)
-    model.fit(X, y)
-    preds = model.predict(np.array([[2, 2], [7, 6]]))
-    print("Predictions:", preds)
+model = RandomForest(n_estimators=5, max_depth=3, max_features=1)
+model.fit(X, y)
+preds = model.predict(np.array([[2, 2], [7, 6]]))
+print("Predictions:", preds)
+
+
+# %%
 
