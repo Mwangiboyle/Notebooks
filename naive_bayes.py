@@ -73,3 +73,6 @@ X_test = np.array([[1.5, 2.0], [6.8, 7.0]])
 preds = model.predict(X_test)
 print("Predictions:", preds)
 
+
+# %%
+
