@@ -51,7 +51,7 @@ class SVM:
 
 # -------------------------
 # Demo
-# -------------------------
+# --------------------------
 # %%
 # Toy dataset (linearly separable)
 X_train = np.array([[2, 3],
